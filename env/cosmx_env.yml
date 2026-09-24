@@ -1,0 +1,5 @@
+name: cosmx
+channels:
+  - conda-forge
+  - defaults
+prefix: /Users/yuqitan/opt/anaconda3/envs/cosmx
