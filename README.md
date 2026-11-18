@@ -17,13 +17,13 @@ Analysis code for the REZCUE: 3D spatial multi-omics profiling from archived FFP
 
 | Component | Version used | Notes |
 |---|---|---|
-| MATLAB | `R2022b` | Image Processing, Deep Learning, Computer Vision and Parallel Computing toolboxes |
+| MATLAB | R2022b | Image Processing, Deep Learning, Computer Vision and Parallel Computing toolboxes |
 | Python env `cell2loc_env` | 3.12.8 | For `brain_cosmx.py`. Pinned in `env/cell2loc_env.yml` |
 | Python env `cosmx` | 3.14.7 | For `CA2_MassSpec.py`. Pinned in `env/cosmx_env.yml` |
 | R | 4.4.2 | For `CA2_cosmx.R`. Seurat 4.0, dplyr, ggplot2, ggsci, tidyr, tibble, reshape2 |
 
 ### Operating systems tested
-- MATLAB scripts: Windows **TODO version**
+- MATLAB scripts: Windows R2022b
 - Python/R scripts: macOS (Apple M1, x86-64)
 
 ### Hardware
