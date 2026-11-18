@@ -17,13 +17,13 @@ Analysis code for the REZCUE: 3D spatial multi-omics profiling from archived FFP
 
 | Component | Version used | Notes |
 |---|---|---|
-| MATLAB | R2022b | Image Processing, Deep Learning, Computer Vision and Parallel Computing toolboxes |
+| MATLAB | R2024b | Image Processing, Deep Learning, Computer Vision and Parallel Computing toolboxes |
 | Python env `cell2loc_env` | 3.12.8 | For `brain_cosmx.py`. Pinned in `env/cell2loc_env.yml` |
 | Python env `cosmx` | 3.14.7 | For `CA2_MassSpec.py`. Pinned in `env/cosmx_env.yml` |
 | R | 4.4.2 | For `CA2_cosmx.R`. Seurat 4.0, dplyr, ggplot2, ggsci, tidyr, tibble, reshape2 |
 
 ### Operating systems tested
-- MATLAB scripts: Windows R2022b
+- MATLAB scripts: Windows 11, with wsl2 Ubuntu 20.04 as OSWindows 11, with wsl2 Ubuntu 20.04 as OS, equipped with with Threadripper Pro 7995WX 1 TB DDR4 RAM, NVIDIA Blackwell 6000 Pro Workstation Edition, 40 TB HDD, and 4 TB NVMe drive x 2
 - Python/R scripts: macOS (Apple M1, x86-64)
 
 ### Hardware
@@ -66,7 +66,7 @@ Typical install time on a normal desktop computer: 30 min** (mostly creating the
 
 ## 3. Demo
 
-Demo data: **TODO: link to demo dataset (e.g. Zenodo DOI)**. Download it and place the files in `cosmx/`.
+Demo data: The processed data is available via Dryad (DOI: 10.5061/dryad.2ngf1vj56) and the raw data may be made available upon request to the corresponding author (H.M.L). Download it and place the files in `cosmx/`.
 
 ```bash
 cd cosmx
@@ -109,8 +109,5 @@ Set the input and output paths at the top of each script, then run it. The MATLA
 ---
 
 
-The processed data is available via Dryad (DOI: 10.5061/dryad.2ngf1vj56) and the raw data may be made available upon request to the corresponding author (H.M.L).  
-
----
 
 
